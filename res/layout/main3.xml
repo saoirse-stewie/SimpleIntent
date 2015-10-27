@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="right|bottom"
+              android:layout_margin="10dp"
+              android:background="@android:color/transparent"
+              android:orientation="vertical" >
+    >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Hello World, MyActivity"
+    />
+    
+    <EditText android:id="@+id/etDataReceived6"
+            android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+            />
+    <EditText android:id="@+id/EditText05"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+            />
+    <EditText android:id="@+id/EditText06"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+            />
+    <Button android:id="@+id/btn5"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+            android:text="Done"
+            android:textColor="#FFFFFF"/>
+
+</LinearLayout>
+
+
